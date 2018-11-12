@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+      font-family:Verdana;
+      background-color: black;
+      margin: 0;
+      
+  }
+  
+  .menu {
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+  .menu a  {
+    background-color: whitesmoke;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    font-weight: bold;
+    color: black;
+  }
+  #output {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    z-index: 100;
+  }
+  .hero-image {
+    background-image: url("/images/dikke_bertha.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+    
+  
+  #strip img{
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+    -webkit-filter: grayscale(95%);
+    filter: grayscale(95%); 
+  
+  }
+  .main {
+    float: left;
+    width:60%;
+    padding:0 20px;
+    color: whitesmoke;
+    background-color: rgba(00, 00, 00, 00);
+    font-family: 'Roboto', sans-serif;
+  }
+  .main h1, h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  #mainpic {
+    background-image: url("/images/de_langzame_mannen.png");
+    height: 550px;
+    
+    background-position: center;
+    background-size: cover;   
+    background-repeat: no-repeat;
+  
+  }
+  .btn {
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    color: whitesmoke;
+  }
+  .btnStart {
+    padding: 10px;
+    border: 1px solid red;
+    display: inline-block;
+  }
+  .right {
+    background-image: url("/images/Slice2.png");
+    background-position: center;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float:left;
+    width:20%;
+    -webkit-filter: grayscale(95%);
+    filter: grayscale(95%); 
+    text-align:center;
+    background-color: rgba(00, 00, 00, 00);
+    height: 400px;
+    margin-top:7px;
+  }
+  footer {
+    background-color:rgba(00, 00, 00, 00);
+    text-align:center;
+    padding:10px;margin-top:7px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+  }
+  #strip{
+    display: none;
+  }
+  }
+  @media only screen and (max-width:420px) {
+    .mainpic {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
