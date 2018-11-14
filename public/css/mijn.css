@@ -37,7 +37,9 @@
     background-repeat: no-repeat;
     position: relative;
   }
-  
+  .contact {
+    text-align: center;
+  }
     
   
   #strip img{
@@ -102,7 +104,10 @@
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
   }
-  
+  #agenda  {
+    text-align: center;
+    font-size: 200%;
+  }
   @media only screen and (max-width:620px) {
     /* For mobile phones: */
     .menu, .main, .right {

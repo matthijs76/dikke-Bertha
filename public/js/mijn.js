@@ -13,6 +13,7 @@ function myFunction1() {
 
   function myFunction2() {
     document.getElementById("output").innerHTML = "Zwart optie2";
+    document.getElementById("strip").style.display = "none"; 
     document.getElementById("titel").style.fontFamily = "'Pattaya', sans-serif";
     document.getElementById("titel").style.fontSize = '400%' ;
     document.getElementById("secTitel").style.fontFamily = "'Mali', cursive";
@@ -23,7 +24,7 @@ function myFunction1() {
     document.getElementById("ptext").style.color = "whitesmoke";
     document.getElementById("top").style.backgroundImage = "url('/images/dikke_bertha_koffie12.jpg')";
     document.getElementById("mainpic").style.backgroundImage = "url('/images/dikke_bertha_old5.jpg')";
-    document.getElementById("strip").style.display = "none";    
+       
   }
 
   function myFunction3() {
