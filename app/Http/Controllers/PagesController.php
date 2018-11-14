@@ -19,6 +19,7 @@ class PagesController extends Controller
         return view('boeking_info');
     }
     public function agenda() {
-        return view('agenda');
+        //$agendas = Agenda::all();
+        return view('agenda' );
     }
 }
