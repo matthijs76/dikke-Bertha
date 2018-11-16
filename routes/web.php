@@ -23,10 +23,12 @@ Route::post('/contact',  [
 ]) ;
 
 Route::get('/boeking_info', 'PagesController@boeking_info');
-Route::get('/agenda', 'AgendaController@agendas' );
+Route::resource('/agenda', 'AgendaController' );
+
+
 
 
 
 Auth::routes();
-
+Route::post('/home', 'HomeController@store');
 Route::get('/home', 'HomeController@index')->name('home');
