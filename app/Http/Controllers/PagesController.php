@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Item;
+
 
 class PagesController extends Controller
 {
@@ -19,7 +21,8 @@ class PagesController extends Controller
         return view('boeking_info');
     }
     public function agenda() {
-        //$agendas = Agenda::all();
+        //$items = Item::all();
         return view('agenda' );
     }
+    
 }
