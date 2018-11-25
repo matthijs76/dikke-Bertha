@@ -8,10 +8,14 @@
 <div class="main">
 	  <H1 id="titel">Boekings info</H1>
     
-    <h2 id="secTitel">KOFFIE!</h2>
+    
     <p id="ptext">
-      This is still undefined by client
-    </p>
+      
+    <object width="100%" height="1200" data="/images/DB_technische_rider.pdf">
+</object>
+ 
+   
+        </p>
       <div id="mainpic">
       </div>
       </div>

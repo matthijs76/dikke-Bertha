@@ -1,3 +1,3 @@
 {{$email}} 
 {{$lastname}} 
-{{ $msg }}  
+{{ $msg }}
