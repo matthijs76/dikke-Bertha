@@ -43,7 +43,7 @@
     
   
   #strip img{
-    height: 120px;
+    height: 150px;
     width: 100%;
     background-size: cover;
     -webkit-filter: grayscale(95%);
@@ -60,8 +60,11 @@
   }
   .main h1, h2 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pattaya', sans-serif;
   }
+#titel {
+    font-size: 400%;
+}
   #mainpic {
     background-image: url("/images/de_langzame_mannen.png");
     height: 550px;
